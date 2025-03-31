@@ -79,7 +79,7 @@
 
     /* Hero Section */
     .hero {
-        background: linear-gradient(rgba(241, 240, 234, 0.9), rgba(241, 240, 234, 0.95)), url('../img/fondo.jpg');
+        background: linear-gradient(rgba(241, 240, 234, 0.9), rgba(241, 240, 234, 0.95)), url('/img/fondo.jpg');
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
