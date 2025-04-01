@@ -2067,7 +2067,6 @@ p {
     [data-theme="light"] .hero {
         background-size: auto;
         background-position: left bottom;
-        background-repeat: no-repeat;
         min-height: max-content;
         display: flex;
         margin-top: 90px; 
