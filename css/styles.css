@@ -2065,8 +2065,9 @@ p {
 /* Responsive modes para el modo claro */
 @media (max-width: 768px) {
     [data-theme="light"] .hero {
+        background: linear-gradient(rgba(9, 0, 46, 0.8), rgba(0, 0, 0, 0.9)), url('https://w0.peakpx.com/wallpaper/919/48/HD-wallpaper-coding-developer-programming.jpg');
         background-size: auto;
-        background-position: left bottom;
+        background-position: center;
         min-height: max-content;
         display: flex;
         margin-top: 90px; 
