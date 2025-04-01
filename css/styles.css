@@ -2065,9 +2065,8 @@ p {
 /* Responsive modes para el modo claro */
 @media (max-width: 768px) {
     [data-theme="light"] .hero {
-        background-size: contain;
+        background-size: cover;
         background-position: center;
-        background-attachment: fixed;
         min-height: max-content;
         display: flex;
         margin-top: 90px; 
@@ -2082,9 +2081,8 @@ p {
   /* Responsive modes para el modo oscuro */
 @media (max-width: 768px) {
     [data-theme="dark"] .hero {
-        background-size: contain;
+        background-size: cover;
         background-position: center;
-        background-attachment: fixed;
         min-height: max-content;
         display: flex;
         margin-top: 90px; 
