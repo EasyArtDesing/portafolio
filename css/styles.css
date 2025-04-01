@@ -55,7 +55,7 @@
 
     .theme-switch-wrapper .slider:before,
     .lang-switch-wrapper .slider:before {
-        background-color: #534b52;
+        background-color: #f6511d;
     }
 
     .theme-switch-wrapper .fa-sun,
@@ -2062,8 +2062,59 @@ p {
     overflow-x: hidden;
 }
 
+/* Responsive modes para el modo claro */
 @media (max-width: 768px) {
-  .hero {
-    margin-top: 80px; /* ajusta el valor según sea necesario */
+    [data-theme="light"] .hero {
+        background-size: auto;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: max-content;
+        display: flex;
+        margin-top: 90px; 
+        overflow-y: hidden;
+    }      
+    .hero-grid {
+      padding-top: 50px;
+      padding-bottom: 90px; 
+    }
+  }   
+
+  /* Responsive modes para el modo oscuro */
+@media (max-width: 768px) {
+    [data-theme="dark"] .hero {
+        background-size: auto;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: max-content;
+        display: flex;
+        margin-top: 90px; 
+        overflow-y: hidden;
+    }      
+    .hero-grid {
+      padding-top: 70px;
+      padding-bottom: 90px; 
+    }
+  }   
+
+  /* Tama#o del logo en header */
+  @media (max-width: 768px) {
+    .logo img {
+        height: 55px;
+    }
   }
-}
+
+  @media (max-width: 768px) {
+    .nav {
+        padding: 20px;
+    }
+  }
+
+/* Mejorar estilos del menu hamburgesa */
+
+  [data-theme="light"] .nav-links.active {
+    background-color: rgba(224, 221, 207, 0.8);
+  }
+
+  [data-theme="dark"] .nav-links.active {
+    background-color: rgba(9, 0, 46, 0.8);
+  }
