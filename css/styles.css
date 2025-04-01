@@ -2066,7 +2066,8 @@ p {
 @media (max-width: 768px) {
     [data-theme="light"] .hero {
         background-size: auto;
-        background-position: left center;
+        background-position: left;
+        background-repeat: no-repeat;
         min-height: max-content;
         display: flex;
         margin-top: 90px; 
@@ -2082,7 +2083,7 @@ p {
 @media (max-width: 768px) {
     [data-theme="dark"] .hero {
         background-size: auto;
-        background-position: center center;
+        background-position: center top;
         min-height: max-content;
         display: flex;
         margin-top: 90px; 
