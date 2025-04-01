@@ -42,7 +42,7 @@
     /* Nav right */
     .nav-right {
         background-color: #e0ddcf;
-        padding: 0.5rem 1rem;
+        /* padding: 0.5rem 1rem; */
         border-radius: 25px;
         border: none;
     }
@@ -427,8 +427,8 @@
     /* Hero Text específico para modo claro */
     .hero-text {
         background-color: none;
-        padding: 2rem;
-    }
+/*         padding: 2rem
+ */    }
 
     .hero-text h1 {
         color: #534b52;
