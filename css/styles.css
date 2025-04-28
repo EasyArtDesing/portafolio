@@ -1205,10 +1205,19 @@ input:checked + .slider:before {
 }
 
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Por defecto 1 columna (móviles) */
+  gap: 20px;
+  padding: 20px;
 }
+
+/* A partir de 768px, hacemos 2 columnas */
+@media (min-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 
 .project-card {
     background: rgba(0, 0, 0, 0.3);
